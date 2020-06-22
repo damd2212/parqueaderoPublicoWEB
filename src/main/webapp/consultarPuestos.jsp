@@ -22,6 +22,7 @@
                     <th>NOMBRE</th>
                     <th>PUESTOS LIBRES</th>
                     <th>PUESTOS OCUPADOS</th>
+                    <th>DIRECCION PARQUEADERO</th>
                     
                 </tr>   
                  <h1>Parqueaderos publicos</h1>
@@ -33,6 +34,7 @@
                     <td> <%= parqueadero.getNomParqueadero()%> </td>
                     <td> <%= parqueadero.getPuestosLibres()%> </td>
                     <td>  <%= parqueadero.getPuestosOcupados()%> </td>
+                    <td>  <%= parqueadero.getDirecParqueadero()%> </td>
              
            
           
