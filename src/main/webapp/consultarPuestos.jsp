@@ -46,7 +46,6 @@
                     <td>  <%= parqueadero.getTelParqueadero()%> </td>
                     <td> <%= parqueadero.getPuestosLibres()%> </td>
                     <td>  <%= parqueadero.getPuestosOcupados()%> </td>
-                    
                 </tr>  
                 <%}%>
             </table> 
