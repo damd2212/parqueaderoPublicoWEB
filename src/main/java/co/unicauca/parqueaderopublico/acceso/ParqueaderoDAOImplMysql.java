@@ -15,7 +15,8 @@ import java.util.List;
 
 /**
  *
- * @author Usuario
+ * clase que implementa la interfaz iparqueadero, por lo tanto sobreescribe sus metodos
+ * en este caso getParqueadero
  */
 public class ParqueaderoDAOImplMysql implements IParqueadero{
     private final ConexionMysql conexion;
@@ -23,7 +24,7 @@ public class ParqueaderoDAOImplMysql implements IParqueadero{
     public ParqueaderoDAOImplMysql() {
         conexion = new ConexionMysql();
     }
-
+    //consultamos todos los parqueaderos
     @Override
     public List<Parqueadero> getParqueadero() {
       Parqueadero parqueadero = null;

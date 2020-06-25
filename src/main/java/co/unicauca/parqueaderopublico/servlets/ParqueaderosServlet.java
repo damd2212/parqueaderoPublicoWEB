@@ -16,8 +16,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author libardo
+ 
+ * clase servlets que se encarga de recibir la peticion del navegador,procesarla y luego redireccionarla al jsp
  */
 @WebServlet(name = "ParqueaderosServlet", urlPatterns = {"/ParqueaderosServlet"})
 public class ParqueaderosServlet extends HttpServlet {

@@ -9,8 +9,8 @@ import java.util.List;
 
 /**
  *
- * @author Usuario
+ * interfaz parqueadero que tiene el metodo getParqueadero
  */
 public interface IParqueadero {
-    public List<Parqueadero> getParqueadero();
+    public List<Parqueadero> getParqueadero();//metodo que da la lista de parqueaderos de la base de datos
 }
